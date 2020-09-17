@@ -1,2 +1,2 @@
 # paul2gps
-a gps that sometimes gets lost
+a confused gps
