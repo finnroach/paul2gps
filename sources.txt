@@ -1,0 +1,9 @@
+distribution flask and java code for geolocation, API key access: 
+https://developer.here.com/blog/here-map-with-python-flask
+https://developer.here.com/blog/understanding-geocoding-with-python
+
+css for formatting the form: 
+https://epicbootstrap.com/snippets/login-form-dark
+
+font: 
+https://www.fontfabric.com/fonts/lovelo/
