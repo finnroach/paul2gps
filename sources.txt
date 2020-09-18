@@ -1,6 +1,9 @@
-distribution flask and java code for geolocation, API key access: 
+flask, java, and html code for geolocation and routing: 
 https://developer.here.com/blog/here-map-with-python-flask
 https://developer.here.com/blog/understanding-geocoding-with-python
+https://developer.here.com/tutorials/switch-to-here-js-route/ 
+https://developer.here.com/documentation/examples/maps-js/services/map-with-route-from-a-to-b
+https://developer.here.com/cn/documentation/maps/hls-chn/topics/markers.html
 
 css for formatting the form: 
 https://epicbootstrap.com/snippets/login-form-dark
