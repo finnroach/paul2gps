@@ -4,6 +4,10 @@ import random
 
 #Flask code 
 app = Flask(__name__)
+@app.errorhandler(500)
+def page_not_found(e):
+    return render_template('500.html'), 500
+
 @app.route('/', methods=["GET", "POST"])
 def map_func():
     if request.method == "POST":
@@ -23,8 +27,10 @@ def map_func():
         a = random.uniform(0, 0.12741)
         b = random.uniform(0, 0.12741)
         # acquiring the latitude and longitude from JSON 
-        orlatitude = ordata['items'][0]['position']['lat'] 
+        orlatitude = ordata['items'][0]['position']['lat']
+        print(orlatitude)
         orlongitude = ordata['items'][0]['position']['lng'] 
+        print(orlongitude)
         ##DESTINATION
         destination = request.form.get("destination")
         desPARAMS = {'apikey':api_key,'q':destination} 
