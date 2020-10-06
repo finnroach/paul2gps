@@ -1,7 +1,6 @@
 # paul2gps
 
-this is the code for a "confused" gps web application
-chances are you'll get lost
+this is the code for a "confused" gps web application, chances are you'll get lost
 
 sources in sources.txt
 
